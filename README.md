@@ -17,28 +17,6 @@ Gra konsolowa, która symuluję walkę z kultowych gier serii Pokemon. Gracz wyb
 python main.py
 
 
-## Struktura projektu
-pokemon-simulator/
-├── core/                 
-│   ├── battle.py         
-│   ├── move.py           
-│   ├── pokemon.py        
-│   └── trainer.py        
-│
-├── io/                   
-│   └── data_loader.py
-│
-├── menu/                 
-│   └── menu_manager.py
-│
-├── moves.csv             
-├── pokemons.csv          
-├── main.py               
-├── README.md             
-└── .gitignore            
-                         
-
-
 ## Przykład użycia
 1. Rozpocznij walkę
 2. Wyjście
