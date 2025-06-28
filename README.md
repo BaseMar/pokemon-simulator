@@ -19,23 +19,24 @@ python main.py
 
 ## Struktura projektu
 pokemon-simulator/
+├── core/                 
+│   ├── battle.py         
+│   ├── move.py           
+│   ├── pokemon.py        
+│   └── trainer.py        
 │
-├── core/                  
-│   ├── battle.py
-│   |── move.py
-|   |── pokemon.py
-|   └── trainer.py
-│
-├── data/                    
+├── io/                   
 │   └── data_loader.py
 │
-├── menu/                  
+├── menu/                 
 │   └── menu_manager.py
 │
-├── moves.csv              
-├── pokemons.csv           
-├── main.py                
-├── README.md                         
+├── moves.csv             
+├── pokemons.csv          
+├── main.py               
+├── README.md             
+└── .gitignore            
+                         
 
 
 ## Przykład użycia
@@ -94,3 +95,9 @@ Zwycięzca: BaseMar
 2. Wyjście
 Wybierz opcję: 2
 Do zobaczenia!
+
+
+## Dalszy rozwój
+- dodanie typów pokemonów i ich ruchom (przewagi/wrażliwości)
+- GUI
+- dodawanie/usuwanie/edytowanie drużyny i ich ruchów
