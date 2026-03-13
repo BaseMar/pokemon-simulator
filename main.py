@@ -1,10 +1,7 @@
-from data.data_loader import load_moves, load_pokemons
 from menu.menu_manager import MenuManager
 
 def main():
-    moves = load_moves("moves.csv")
-    pokemons = load_pokemons("pokemons.csv", moves)
-    menu = MenuManager(moves, pokemons)
+    menu = MenuManager()
     
     while True:
         menu.display_menu()
